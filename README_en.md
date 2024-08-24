@@ -1,8 +1,8 @@
 # TrueHDRI-panel
 [Japanese docs](./README.md)
 
-![](./docs_attachments/TrueHDRI_Main_1.png)
-[Demo video (Japanese sub only)](https://drive.google.com/file/d/1p5s_DziFrNmZlmQljKhBeVKmoBGY_4R3/view?usp=sharing)
+[![](./docs_attachments/TrueHDRI_Main_1.png)](https://youtu.be/zwyQYrWBvSc)
+[Demo video (Japanese sub only)](https://youtu.be/zwyQYrWBvSc)
 
 An Unreal Engine plugin that creates lighting environments Blueprint from a HDRI sphere texture.
 
