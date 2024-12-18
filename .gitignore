@@ -1,3 +1,32 @@
+Content/**
+Docs/**
+Raw/**
+*.zip
+
+# OpenCVのデバッグ用に出力している画像
+Raw/*.png
+**/Dump/*
+
+# Houdini backups
+**/backup/*
+
+# Krita backups
+*.1~
+*.2~
+
+# Blender backups
+*.blend1
+*.blend2
+
+
+# Symlinkを削除
+.vs
+DerivedDataCache
+Intermediate
+Saved
+Binaries
+
+# Unreal
 # Visual Studio 2015 user specific files
 .vs/
 

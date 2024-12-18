@@ -1,11 +1,12 @@
 # TrueHDRI-panel
 [English docs](./README_en.md)
 
-[![](./docs_attachments/TrueHDRI_Main_1.png)](https://youtu.be/zwyQYrWBvSc)
-[デモ映像](https://youtu.be/zwyQYrWBvSc)
+[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)
 
 TrueHDRI-panel は、HDRI を光源環境としてセットアップする Unreal Engine のプラグインです。
 
+[Fab公開ページ](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
+[デモ映像](https://youtu.be/zwyQYrWBvSc)
 
 ## 特徴
 - Unreal Engine のライティング環境に HDRI をそのまま投げ込んだだけでは、ダイナミックレンジの高輝度な部分が活かされておらず、正しいレンダリングが行われません。本プラグインでは、画像の高輝度部分を Sun light として解釈した HDRI 環境を自動で生成しています。これにより、パストレーシングを用いない Lumen 環境においても HDRI の光源から落ち影などの計算を行うことが可能となります。
@@ -45,6 +46,7 @@ EXR形式のテクスチャ画像を Unreal Engine のプロジェクトに読�
 
 - 光源環境アセットの生成  
 コンテンツドロワーのテクスチャアセットを HDRI To Lighting Environments > Textures にドラッグ&ドロップして、光源環境化する HDRI を指定してください。  
+＊"With Directional Light"の光源環境を生成した場合太陽光の明るさを抜いたテクスチャー画像(-noSun)が、元のEXR画像と同じファイル内に生成されます。こちらは他のソフトウェアで同じ光源環境を再構築するために利用いただけるほか、削除して頂いても問題のないものとなります。  
 ![](./docs_attachments/usage_4.png)
 
 ### レベル上で使用する光源環境Blueprintの選択
@@ -78,7 +80,12 @@ EXR形式のテクスチャ画像を Unreal Engine のプロジェクトに読�
 
 
 ## 更新履歴
-- 2024/06/25
-  - プラグイン v1.0.0 公開開始
-- 2024/05/28
+- 2024/12/18
+  - 光源環境の生成を非同期化
+- 2024/12/06
+  - Fabでの公開(無料)を開始
+- 2024/11/20
+  - 現在のレベルに適用する光源環境を選択するメニューにサムネイルの表示を実装
+  - マテリアルのLookDev用に、Logカーブでの映像出力を行うポストプロセス設定へ切り替えられる機能を実装
+- 2024/06/06
   - GitHUB readme に利用ドキュメントを追加

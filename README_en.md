@@ -1,11 +1,12 @@
 # TrueHDRI-panel
 [Japanese docs](./README.md)
 
-[![](./docs_attachments/TrueHDRI_Main_1.png)](https://youtu.be/zwyQYrWBvSc)
-[Demo video (Japanese sub only)](https://youtu.be/zwyQYrWBvSc)
+[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)
 
 An Unreal Engine plugin that creates lighting environments Blueprint from a HDRI sphere texture.
 
+[Fab product page](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
+[Demo video (Japanese subtitles only)](https://youtu.be/zwyQYrWBvSc)
 
 ## Features
 - Choice of the lighting environment Blueprints to make; one for the game runtime, the other for the path-traced movie production.
@@ -31,7 +32,7 @@ After the installation, launch your project. Under Edit > Plugins window make su
 ### Create a Lighting Environment Blueprint from a HDRI
 - Preparation of the texture assets
 Import your .exr formatted HDRI texture to your Unreal Engine project through normal means.  
-＊Make sure that the color space of your EXR image in sRGB. Resulting light color will be inaccurate otherwise.  
+\*Make sure that the color space of your EXR image in sRGB. Resulting light color will be inaccurate otherwise.  
 Set the Level Of Detail > Mip Gen Settings of your texture asset to NoMipmaps.  
 ![](./docs_attachments/usage_3.png)
 
@@ -45,6 +46,7 @@ Functions related to Blueprint assets generation are sorted under HDRI To Lighti
 - Generate the Lighting Environment Blueprint asset
 Choose any number of HDRI texture assets to be used in
 HDRI To Lighting Environments > Textures, and press Create Lighting Rig button.  
+\*After creating a With Directional Light, a texture file without the converted brightness (-noSun.exr) will be saved besides the same directory as the original EXR file. Useful for reimporting the UTexture or to be used in any other DCC / game engines. I can also be safely deleted.  
 ![](./docs_attachments/usage_4.png)
 
 ### Set a Lighting Environment on the Level
