@@ -6,7 +6,7 @@
 An Unreal Engine plugin that creates lighting environments Blueprint from a HDRI sphere texture.
 
 [Fab product page](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
-[Demo video (Japanese subtitles only)](https://youtu.be/zwyQYrWBvSc)
+[Demo video](https://www.youtube.com/watch?v=yO2-Liwf6u4)
 
 ## Features
 - Choice of the lighting environment Blueprints to make; one for the game runtime, the other for the path-traced movie production.

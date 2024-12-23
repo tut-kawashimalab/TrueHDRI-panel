@@ -6,7 +6,7 @@
 TrueHDRI-panel は、HDRI を光源環境としてセットアップする Unreal Engine のプラグインです。
 
 [Fab公開ページ](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
-[デモ映像](https://youtu.be/zwyQYrWBvSc)
+[デモ映像](https://www.youtube.com/watch?v=yO2-Liwf6u4)
 
 ## 特徴
 - Unreal Engine のライティング環境に HDRI をそのまま投げ込んだだけでは、ダイナミックレンジの高輝度な部分が活かされておらず、正しいレンダリングが行われません。本プラグインでは、画像の高輝度部分を Sun light として解釈した HDRI 環境を自動で生成しています。これにより、パストレーシングを用いない Lumen 環境においても HDRI の光源から落ち影などの計算を行うことが可能となります。
