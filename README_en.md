@@ -1,12 +1,12 @@
 # TrueHDRI-panel
 [Japanese docs](./README.md)
 
-[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)
+[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.youtube.com/watch?v=8WYZerzSQr0)
 
 An Unreal Engine plugin that creates lighting environments Blueprint from a HDRI sphere texture.
 
 [Fab product page](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
-[Demo video](https://www.youtube.com/watch?v=yO2-Liwf6u4)
+[Demo video](https://www.youtube.com/watch?v=8WYZerzSQr0)
 
 ## Features
 - Choice of the lighting environment Blueprints to make; one for the game runtime, the other for the path-traced movie production.
