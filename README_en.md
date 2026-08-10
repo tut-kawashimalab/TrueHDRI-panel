@@ -1,12 +1,12 @@
 # TrueHDRI-panel
 [Japanese docs](./README.md)
 
-[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.youtube.com/watch?v=8WYZerzSQr0)
+[![](./docs_attachments/TrueHDRI_Main_1.png)](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)
 
 An Unreal Engine plugin that creates lighting environments Blueprint from a HDRI sphere texture.
 
 [Fab product page](https://www.fab.com/listings/b65cba4d-e038-4d8a-96fc-73fde41f039e)  
-[Demo video](https://www.youtube.com/watch?v=8WYZerzSQr0)
+[Demo video](https://www.youtube.com/watch?v=yO2-Liwf6u4)
 
 ## Features
 - Choice of the lighting environment Blueprints to make; one for the game runtime, the other for the path-traced movie production.
@@ -77,3 +77,17 @@ Depending on the settings, these assets described below will be created:
     - Lighting Environment Blueprint     　     BP_[AssetName]
     - Lighting Environment sphere material　M_[AssetName]
     - (Only with `-Directional`) Texture without the extracted brightness　 [AssetName]-NoSun
+
+
+## Update History
+- 2026/8/10
+  - Fixed an issue where creating a Lighting Rig from a large HDRI would fail
+- 2024/12/18
+  - Made the Lighting Environment creation asynchronous
+- 2024/12/06
+  - Released on Fab (free)
+- 2024/11/20
+  - Added thumbnail display to the menu for selecting the Lighting Environment applied to the current level
+  - Added the ability to switch to a post-process setting that outputs video with a Log curve, for material LookDev
+- 2024/06/06
+  - Added usage documentation to the GitHub readme
